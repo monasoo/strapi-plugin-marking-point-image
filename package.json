@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-marking-pin-point-image",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Strapi - Marking Point Image",
   "strapi": {
     "displayName": "Marking Point Image",
