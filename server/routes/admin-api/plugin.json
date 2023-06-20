@@ -1,0 +1,66 @@
+[
+  {
+    "method": "GET",
+    "path": "/locales",
+    "handler": "myController.locales",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/config",
+    "handler": "myController.config",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/images/find",
+    "handler": "images.find",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/category/create",
+    "handler": "category.create",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/category/find",
+    "handler": "category.find",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/product/find",
+    "handler": "product.find",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/product/createpin/:id",
+    "handler": "product.createpin",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/pin/find",
+    "handler": "pin.find",
+    "config": {
+      "policies": ["admin::isAuthenticatedAdmin"]
+    }
+  }
+]

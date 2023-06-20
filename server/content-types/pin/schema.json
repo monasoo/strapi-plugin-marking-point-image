@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mark_pin_relations",
+  "info": {
+    "singularName": "mark-pin-relation",
+    "pluralName": "mark-pin-relations",
+    "displayName": "Image Marking [Pin Relation]",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "setX": {
+      "type": "decimal",
+      "required": true
+    },
+    "setY": {
+      "type": "decimal",
+      "required": true
+    },
+    "image_marking_image": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image-marking-image.image-marking-image"
+    },
+    "image_marking_product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image-marking-product.image-marking-product"
+    }
+  }
+}

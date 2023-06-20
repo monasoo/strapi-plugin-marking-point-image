@@ -1,0 +1,26 @@
+[
+    {
+        "method": "GET",
+        "path": "/category/find",
+        "handler": "api.getcategory",
+        "config": {
+          "policies": []
+        }
+    },
+    {
+        "method": "GET",
+        "path": "/image/find",
+        "handler": "api.getimage",
+        "config": {
+          "policies": []
+        }
+    },
+    {
+        "method": "GET",
+        "path": "/product/find",
+        "handler": "api.getproduct",
+        "config": {
+          "policies": []
+        }
+    }
+]

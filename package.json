@@ -1,0 +1,51 @@
+{
+  "name": "strapi-plugin-marking-point-image",
+  "version": "1.0.0",
+  "description": "Strapi - Marking Point Image",
+  "strapi": {
+    "name": "Marking Point Image",
+    "description": "A plugin for Strapi Marking Point Image plugin",
+    "kind": "plugin",
+    "displayName": "plugin"
+  },
+  "dependencies": {
+    "@strapi/admin": "4.9.2",
+    "@strapi/design-system": "^1.6.6",
+    "@strapi/helper-plugin": "^4.9.2",
+    "@strapi/icons": "^1.6.6",
+    "immutability-helper": "^3.1.1",
+    "lodash": "^4.17.11",
+    "react": "^17.0.2",
+    "react-dnd": "^15.1.2",
+    "react-dnd-html5-backend": "^15.1.3",
+    "react-intl": "6.3.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "formik": "^2.2.9"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "4.x"
+  },
+  "author": "Anuntachai TH",
+  "maintainers": [
+    "Anuntachai TH"
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "main": "strapi-admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "map",
+    "marking",
+    "pin",
+    "image"
+  ]
+}
