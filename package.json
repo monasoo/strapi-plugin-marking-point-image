@@ -4,7 +4,7 @@
   "description": "Strapi - Marking Point Image",
   "strapi": {
     "displayName": "Marking Point Image",
-    "name": "marking-pin-point-image",
+    "name": "marking-point-image",
     "description": "A plugin for Strapi CMS to create pin point on image",
     "kind": "plugin"
   },
