@@ -1,12 +1,10 @@
 {
   "kind": "collectionType",
   "collectionName": "image_marking_categories",
-  "info": {
-    "singularName": "image-marking-category",
+  "singularName": "image-marking-category",
     "pluralName": "image-marking-categories",
     "displayName": "Image Marking [Category]",
-    "description": ""
-  },
+  
   "options": {
     "draftAndPublish": true
   },

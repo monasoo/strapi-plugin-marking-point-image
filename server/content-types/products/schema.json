@@ -1,12 +1,9 @@
 {
   "kind": "collectionType",
   "collectionName": "image_marking_products",
-  "info": {
-    "singularName": "image-marking-product",
-    "pluralName": "image-marking-products",
-    "displayName": "Image Marking [Product]",
-    "description": ""
-  },
+  "singularName": "image-marking-product",
+  "pluralName": "image-marking-products",
+  "displayName": "Image Marking [Product]",
   "options": {
     "draftAndPublish": true
   },

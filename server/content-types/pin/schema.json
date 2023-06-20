@@ -1,12 +1,9 @@
 {
   "kind": "collectionType",
   "collectionName": "mark_pin_relations",
-  "info": {
-    "singularName": "mark-pin-relation",
-    "pluralName": "mark-pin-relations",
-    "displayName": "Image Marking [Pin Relation]",
-    "description": ""
-  },
+  "singularName": "mark-pin-relation",
+  "pluralName": "mark-pin-relations",
+  "displayName": "Image Marking [Pin Relation]",
   "options": {
     "draftAndPublish": false
   },

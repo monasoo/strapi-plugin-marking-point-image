@@ -1,12 +1,9 @@
 {
   "kind": "collectionType",
   "collectionName": "image_marking_images",
-  "info": {
-    "singularName": "image-marking-image",
-    "pluralName": "image-marking-images",
-    "displayName": "Image Marking [Image]",
-    "description": ""
-  },
+  "singularName": "image-marking-image",
+  "pluralName": "image-marking-images",
+  "displayName": "Image Marking [Image]",
   "options": {
     "draftAndPublish": true
   },
