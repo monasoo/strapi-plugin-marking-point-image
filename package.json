@@ -1,12 +1,12 @@
 {
-  "name": "strapi-plugin-marking-point-image",
+  "name": "strapi-plugin-marking-pin-point-image",
   "version": "1.0.0",
   "description": "Strapi - Marking Point Image",
   "strapi": {
-    "name": "Marking Point Image",
-    "description": "A plugin for Strapi Marking Point Image plugin",
-    "kind": "plugin",
-    "displayName": "plugin"
+    "displayName": "Marking Point Image",
+    "name": "marking-pin-point-image",
+    "description": "A plugin for Strapi CMS to create pin point on image",
+    "kind": "plugin"
   },
   "dependencies": {
     "@strapi/admin": "4.9.2",
@@ -27,25 +27,23 @@
   "peerDependencies": {
     "@strapi/strapi": "4.x"
   },
-  "author": "Anuntachai TH",
-  "maintainers": [
-    "Anuntachai TH"
-  ],
-  "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT",
-  "main": "strapi-admin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monasoo/strapi-plugin-marking-point-image.git"
+  },
   "keywords": [
     "strapi",
-    "plugin",
-    "map",
     "marking",
-    "pin",
+    "plugin",
     "image"
-  ]
+  ],
+  "author": "Anuntachai TH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monasoo/strapi-plugin-marking-point-image/issues"
+  },
+  "homepage": "https://github.com/monasoo/strapi-plugin-marking-point-image#readme"
 }
