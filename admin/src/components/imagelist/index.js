@@ -73,7 +73,6 @@ const Imagelist = ({ locale }) => {
   const Productlist = async (imgID) => {
     const prod = await apiRequests.getProdInCate(locale, imgID);
     setProdlistData(prod);
-    //console.log(prod)
   };
 
   /* useEffect(async () => {
@@ -112,10 +111,10 @@ const Imagelist = ({ locale }) => {
     var showY = event.nativeEvent.offsetY;
 
     const c = showX / image.clientWidth;
-    const left = c * 100;
+    const left = c * 100 - 2;
 
     const d = showY / image.clientHeight;
-    const top = d * 100;
+    const top = d * 100 - 4;
 
     setX(left.toFixed(2));
     setY(top.toFixed(2));
@@ -144,9 +143,8 @@ const Imagelist = ({ locale }) => {
       borderRadius: "9999px",
       transitionProperty: "all",
       transitionTimingFunction: "cubic-bezier(.4,0,.2,1)",
-      //transitionDuration: ".3s",
     };
-    return Object.assign(customStyles, { top: y - 2 + "%", left: x - 2 + "%" });
+    return Object.assign(customStyles, { top: y + "%", left: x + "%" });
   };
 
   let ImageAccordion = {
