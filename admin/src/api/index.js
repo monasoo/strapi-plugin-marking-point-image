@@ -13,9 +13,9 @@ const apiRequests = {
     });
   },
   getImageList: async (locale = null, filter = null) => {
-    console.log(filter); // ${filter ? `&filters=${filter}` : ""}
     return await request(
-      `/marking-point-image/images/find${locale ? `?locale=${locale}` : ""}${filter ? `&filters=${filter}` : ""
+      `/marking-point-image/images/find${locale ? `?locale=${locale}` : ""}${
+        filter ? `&filters=${filter}` : ""
       }`,
       {
         method: "GET",
